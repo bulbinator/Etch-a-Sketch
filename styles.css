@@ -5,11 +5,12 @@ html, body {
 body
 {
    display: flex;
+   flex-direction: column;
    align-items: center;
    justify-content: center; 
 }
 
-.container {
+.grid {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +28,10 @@ body
     border: 1px solid black;
 }
 
-.square:hover
+h1, button
 {
-    background-color: red;
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
 }
