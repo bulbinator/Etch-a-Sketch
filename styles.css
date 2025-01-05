@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+  }
+
+body
+{
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 50vmin;
+    width: 50vmin;
+}
+
+
+.square
+{
+    flex: 0 0 calc(100% / 16);
+    aspect-ratio: 1;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
