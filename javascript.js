@@ -8,6 +8,5 @@ for (let i=0; i<16; i++)
         square.classList.add('square')
         container.appendChild(square)
     }
-}
-    
+} 
 
